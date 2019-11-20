@@ -2,6 +2,7 @@ html {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 body{
     background-image: linear-gradient(
@@ -16,36 +17,54 @@ body{
 }
 
 div{
-    height: 100vh; 
+    height: 20rem; 
     text-align: center;
 }
-
-h1{
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 50px;
-    color: cyan;
-    position: relative;
-}
-
-body{
-    text-transform: uppercase;
-    color: rgb(56, 10, 5);
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-}
-
-img {
-    filter: drop-shadow(5px 5px 5px black);
-    height: 300px;
-    position absolute;
-  }
-
 
 .header{
     height: auto;
     background-color: rgba(100, 100, 100, .8);
-    border: 3px solid black;
+    border: 2rem solid black;
     position: relative;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
   }
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    color: cyan;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    color: lightpink;
+}
+
+
+
+#boxy1 {
+    color: sandybrown;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+bod{
+    text-transform: uppercase;
+    color: rgb(56, 10, 5);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+img {
+    filter: drop-shadow(5px 5px 5px black);
+    height: 30rem;
+  }
+
+img:nth-child(3){
+    height: 50rem;
+}
+
+
+
